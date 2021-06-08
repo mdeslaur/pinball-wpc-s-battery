@@ -1,0 +1,125 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Conn_01x05_Male
+#
+DEF Connector_Conn_01x05_Male J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Conn_01x05_Male" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+S 34 205 0 195 1 1 6 F
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+P 2 1 1 6 50 200 34 200 N
+X Pin_1 1 200 200 150 L 50 50 1 1 P
+X Pin_2 2 200 100 150 L 50 50 1 1 P
+X Pin_3 3 200 0 150 L 50 50 1 1 P
+X Pin_4 4 200 -100 150 L 50 50 1 1 P
+X Pin_5 5 200 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Battery
+#
+DEF Device_Battery BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Device_Battery" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -80 -55 80 -65 0 1 0 F
+S -80 70 80 60 0 1 0 F
+S -52 -78 50 -98 0 1 0 F
+S -52 47 50 27 0 1 0 F
+P 2 0 1 0 0 -60 0 -50 N
+P 2 0 1 0 0 -40 0 -30 N
+P 2 0 1 0 0 -20 0 -10 N
+P 2 0 1 0 0 0 0 10 N
+P 2 0 1 0 0 20 0 30 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 10 105 50 105 N
+P 2 0 1 10 30 125 30 85 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_ALT
+#
+DEF Device_D_ALT D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D_ALT" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# dkbattery_BS-7
+#
+DEF dkbattery_BS-7 BAT 0 40 N Y 1 F N
+F0 "BAT" -50 150 60 H V R CNN
+F1 "dkbattery_BS-7" -50 -150 60 H V R CNN
+F2 "digikey-footprints:Battery_Holder_Coin_2032_BS-7" 200 200 60 H I L CNN
+F3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" 200 300 60 V I L CNN
+F4 "BS-7-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BS-7" 200 500 60 H I L CNN "MPN"
+F6 "Battery Products" 200 600 60 H I L CNN "Category"
+F7 "Battery Holders, Clips, Contacts" 200 700 60 H I L CNN "Family"
+F8 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "BATTERY HOLDER COIN 20MM PC PIN" 200 1000 60 H I L CNN "Description"
+F11 "MPD (Memory Protection Devices)" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 1 1 0 0 -100 0 -75 N
+P 2 1 1 0 0 75 0 100 N
+P 2 1 1 0 50 -75 -50 -75 N
+P 2 1 1 0 50 25 -50 25 N
+P 2 1 1 0 50 90 50 130 N
+P 2 1 1 0 70 110 30 110 N
+P 2 1 1 0 100 -25 -100 -25 N
+P 2 1 1 0 100 75 -100 75 N
+X ~ Neg 0 -200 100 U 50 50 1 1 w
+X ~ Pos 0 200 100 D 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

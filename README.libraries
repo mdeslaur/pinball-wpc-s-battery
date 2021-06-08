@@ -1,0 +1,9 @@
+This project uses the following libraries:
+
+Battery_Holder_Coin_2032_BS-7.kicad_mod
+dk_Battery-Holders-Clips-Contacts.dcm
+dk_Battery-Holders-Clips-Contacts.lib
+
+These were obtained from here:
+
+https://github.com/Digi-Key/digikey-kicad-library
